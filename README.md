@@ -6,7 +6,7 @@ Please be aware that this is just an experimental project, a proof of concept on
 
 # Before you build
 
-- Make sure the target platform is set to x86
+- Make sure the target platform is set to x86, on both, client and server.
 - Edit **Client.cs** line **18**, to set the value of **Server** to match the name of the machine running the server.
 - The default port is 81, if for whatever reason you want to change it, you have to edit lines **18** on **Client.cs** and **135** on **Server.cs**
 

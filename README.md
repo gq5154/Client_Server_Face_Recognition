@@ -1,6 +1,6 @@
 # Client/Server Face Recognition System
 
-This is a Client/Server implementation of a Face Recognition System. The server binds names and images and stores them on a local database. The client takes an image from the WebCam and sends it to the server, the server then compares the picture taken by the client and if it finds a match returns the person's name to the client. The client can additionaly start a recognition session in which 9 pictures are taken to the subject in front of the camera, after all 9 pictures have been taken, they are sent to the server together with the person's name to be stored on the database.
+This is projects implements a Client/Server, Face Recognition System based on EmguCV. The client can starts a recognition session in which 9 pictures are taken to the subject in front of the camera, after all 9 pictures have been taken, they are sent to the server together with the person's name to the server. The server binds then name and images together and stores them on a local database. The client is continouslly analizing the image from the WebCam when it detects a face, it and sends a picture to the server, the server then seeks the image on its database and if it finds a match returns the person's name to the client, so the client can dispaly the person's name above their face.  
 
 Please be aware that this is just an experimental project, a proof of concept only and because of that you cannot expect robustnes.
 

@@ -7,12 +7,13 @@ Please be aware that this is just an experimental project, a proof of concept on
 # Before you build
 
 - Make sure the target platform is set to x86, on both, client and server.
-- Edit **Client.cs** line **18**, to set the value of **Server** to match the name of the machine running the server.
+- Edit **Client.cs** line **18**, to set the value of **Server** to match the name or the IP address of the machine running the server.
 - The default port is 81, if for whatever reason you want to change it, you have to edit lines **18** on **Client.cs** and **135** on **Server.cs**
 
 # After you build
 
-- Copy all the contents of the **Emgu_OK** folder to the folder in which your **.exe** files were built. That is, copy these files for both client and server.
-- Copy **haarcascade_frontalface_default.xml** to the folder in which your **.exe** files were built. Again this applies for both executables.
+- Copy all the files inside of the **Emgu_OK** folder to the folder in which your **.exe** files were built. That is, copy these files for both client and server.
+- Copy **haarcascade_frontalface_default.xml** to the folder in which your **.exe** files were built. Again, this applies for both executables.
 - Inside the folder that contains the server executable, create a folder named **Data**.
+- Once you reach this point you're ready to go.
  
